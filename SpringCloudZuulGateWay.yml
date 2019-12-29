@@ -12,10 +12,10 @@ eureka:
 zuul:
   routes:
     users:
-      path: /users/**
+      path: /users/*
       sensitiveHeaders: Cookie,Set-Cookie,Authorization
       serviceId: SpringCloudUserService
     employees:
-      path: /employees/**
+      path: /employees/*
       sensitiveHeaders: Cookie,Set-Cookie,Authorization
       serviceId: SpringCloudEmployeeService
