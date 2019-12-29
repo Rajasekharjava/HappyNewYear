@@ -16,6 +16,6 @@ zuul:
       sensitiveHeaders: Cookie,Set-Cookie,Authorization
       serviceId: SpringCloudUserService
     employees:
-      path: /employee/**
+      path: /employees/**
       sensitiveHeaders: Cookie,Set-Cookie,Authorization
       serviceId: SpringCloudEmployeeService
